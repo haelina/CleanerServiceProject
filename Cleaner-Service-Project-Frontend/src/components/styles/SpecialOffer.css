@@ -1,0 +1,44 @@
+.SpecialOffer {
+  width: 90%;
+  align-items: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.OfferContainer {
+  width: 100%;
+  flex: none;
+  text-align: left;
+  padding: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+  .SpecialOffer {
+    width: 80%;
+  }
+
+  .OfferContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .FlexIt1 {
+    background-color: rgb(104, 190, 240);
+    width: 50%;
+    padding: 10px;
+  }
+  .FlexIt2 {
+    width: 30%;
+    padding-top: 20px;
+    padding-right: 50px;
+    text-align: right;
+  }
+  .FlexIt3 {
+    width: 95%;
+    text-align: justify;
+  }
+}

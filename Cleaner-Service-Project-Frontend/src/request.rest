@@ -1,0 +1,49 @@
+// Install REST Client extension to VSC if you don't have it.
+
+GET http://localhost:8080/api/customers HTTP/1.1
+
+###
+
+GET https://clean-buddy.herokuapp.com/api/customers/
+###
+
+GET https://clean-buddy.herokuapp.com/api/suppliers/
+###
+
+POST http://localhost:8080/api/customers/ HTTP/1.1 Content-Type: application/json
+
+{
+"first_name": "Volter", "last_name": "Kilpi", "street_address": "Tääonmunkoti 2", "city": "Kustavi", "postcode": "12345", "phone": "612333351", "email": "example@example.com", "password": "Karhumäki"
+}
+
+###
+POST https://clean-buddy.herokuapp.com/api/customers/
+Content-Type: application/json
+
+{
+"first_name": "Jukka", "last_name": "Kukkula", "street_address": "Sukkatie 5",
+"city": "Tampere", "postcode": "12345", "phone": "0200333351",
+"email": "example@sukkabaana.com", "password": "sukatjakengät"
+}
+
+###
+
+POST https://clean-buddy.herokuapp.com/api/suppliers/
+Content-Type: application/json
+
+{
+    "name": "Siivouspojat Oy", "supplier_description": "Siivotaan joo",
+    "street_address": "Mäkikatu 3", "city": "Tampere", "postcode": "33100",
+    "phone": "0504433112", "email": "asiakaspalvelu@siivouspojat.fi",
+    "password": "salasana123"
+}
+
+###
+POST https://clean-buddy.herokuapp.com/api/products/
+Content-Type: application/json
+
+{
+"product_name": "Perusteellinen kotisiivous",
+"product_description": "Me siivotaan myös sängyn alta huolella",
+"product_price": 100
+}

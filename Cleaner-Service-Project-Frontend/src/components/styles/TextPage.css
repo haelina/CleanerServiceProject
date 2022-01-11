@@ -1,0 +1,26 @@
+.TextContainer {
+  margin: 50px auto 50px auto;
+  align-items: left;
+  width: 90%;
+}
+
+.TextContainer p {
+  text-align: justify;
+}
+
+.TextContainer h3 {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.bottomButtons {
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1000px) {
+  .TextContainer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
