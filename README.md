@@ -1,6 +1,6 @@
 # CleanerServiceProject
 
-A school project for Tampere University of Applied Sciences project course in Spring 2021. The project idea came from two TAMK students who study Hospitality Management. The project goal was to implement a platform that gathers cleaning service providers and gives them a chance to market their company and sell cleaning services to households.
+A school project made in Tampere University of Applied Sciences project course in Spring 2021. The project idea came from two TAMK students who study Hospitality Management. The project goal was to implement a platform that gathers cleaning service providers and gives them a chance to market their company and sell cleaning services to households.
 
 Project frontend is implemented with react.js and backend side is built with node.js.
 
