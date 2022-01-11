@@ -17,7 +17,8 @@ The service is running in Heroku. [Go check it out!](https://clean-buddy.herokua
 ## What it looks like?
 
 <p align="middle">
-<img src="/images/clean1.jpg" width="700" height="auto">
+|<img src="/images/clean1.jpg" width="700" height="auto">|
+-
 <img src="/images/clean2.jpg" width="700" height="auto">
 <img src="/images/clean3.jpg" width="700" height="auto">
 </p>
