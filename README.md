@@ -7,7 +7,9 @@ Project frontend is implemented with react.js and backend side is built with nod
 ## Team
 
 Hanna Sepänmaa - Scrummaster and Frontend code
+
 Toni Salminen - Frontend code
+
 Eetu Niittymäki - Backend code
 
 ## Link to Heroku
