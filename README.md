@@ -18,8 +18,16 @@ The service is running in Heroku. [Go check it out!](https://clean-buddy.herokua
 
 <p align="middle">
 <img src="/images/clean1.jpg" width="700" height="auto">
+</p>
+
 ---
+
+<p align="middle">
 <img src="/images/clean2.jpg" width="700" height="auto">
+</p>
+
 ---
+
+<p align="middle">
 <img src="/images/clean3.jpg" width="700" height="auto">
 </p>
